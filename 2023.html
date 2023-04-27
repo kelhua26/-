@@ -1,0 +1,450 @@
+<HTML>
+<HEAD>
+<TITLE>Website</TITLE>
+<STYLE>
+	.body {
+		background-color: #010c5e;
+	}
+</STYLE>
+</HEAD>
+<BODY class=body>
+<ul class="nav">
+	<li>
+	<DIV class="dropdown">
+  		<BUTTON class="dropbtn">
+  			<IMG src=Images/menu1.png class="menu1"></IMG>
+  		</BUTTON>
+  			<DIV class="dropdown-content1">
+  				<a href="2023.html">2023</a>
+  			</DIV>
+  			<DIV class="dropdown-content2">
+    			<a href="2022.html">2022</a>
+  			</DIV>
+  			<DIV class="dropdown-content3">
+    			<a href="2021.html">2021</a>
+  			</DIV>
+  			<DIV class="dropdown-content4">
+    			<a href="2020.html">2020</a>
+  			</DIV>
+  			<DIV class="dropdown-content5">
+    			<a href="2019.html">2019</a>
+  			</DIV>
+  			<DIV class="dropdown-content6">
+    			<a href="2018.html">2018</a>
+  			</DIV>
+	</DIV>
+	</li>
+</ul>
+<IMG id=bannerimg1 src=Images/Naruto-banner.png></IMG>
+<IMG id=bannerimg2 src=Images/banner0.png></IMG>
+<IMG id=img1 src=Images/img1.png></IMG>
+<IMG id=img2 src=Images/img2.png></IMG>
+<IMG id=img3 src=Images/img3.png></IMG>
+<IMG id=img4 src=Images/img4.png></IMG>
+<IMG id=img5 src=Images/img5.png></IMG>
+<IMG id=img6 src=Images/img6.png></IMG>
+<IMG id=img7 src=Images/img7.png></IMG>
+<IMG id=img8 src=Images/img8.png></IMG>
+<IMG id=img9 src=Images/img9.png></IMG>
+<IMG id=img10 src=Images/img10.png></IMG>
+<IMG id=img11 src=Images/img11.png></IMG>
+<IMG id=img12 src=Images/img12.png></IMG>
+<IMG id=img13 src=Images/img13.png></IMG>
+<IMG id=img14 src=Images/img14.png></IMG>
+<IMG id=img15 src=Images/img15.png></IMG>
+<IMG id=img16 src=Images/img16.png></IMG>
+<IMG id=img17 src=Images/img17.png></IMG>
+<IMG id=img18 src=Images/img18.png></IMG>
+<BUTTON id=bannerswitch1 onclick="
+	document.getElementById('bannerimg1').style.opacity='0%'
+	document.getElementById('bannerimg2').style.opacity='100%'
+	myFunction1()">
+</BUTTON>
+<BUTTON id=bannerswitch2 onclick="
+	document.getElementById('bannerimg1').style.opacity='100%' 
+	document.getElementById('bannerimg2').style.opacity='0%'
+	myFunction2()">
+</BUTTON>
+<SCRIPT>
+function myFunction1() {
+  document.getElementById("bannerswitch1").style.zIndex = "-1";
+  document.getElementById("bannerswitch2").style.zIndex = "1";
+}
+function myFunction2() {
+  document.getElementById("bannerswitch2").style.zIndex = "-1";
+  document.getElementById("bannerswitch1").style.zIndex = "1";
+}
+</SCRIPT>
+<STYLE type='text/css'>
+.menu1 {
+	height: 120%;
+	width: 120%;
+	position: absolute;
+	top: -70%;
+	left: -1930%;
+}
+.dropbtn {
+  	padding: 16px;
+  	font-size: 16px;
+  	border-radius: 0px;
+  	cursor: pointer;
+  	background-color: transparent;
+  	border-width: 0px;
+}
+
+.dropdown {
+ 	position: relative;
+ 	display: inline-block;
+  	background-color: transparent;
+
+}
+
+.dropdown-content1 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 50%;
+}
+
+.dropdown-content1 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content1 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown-content1 a:active {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content1 {
+  	display: block;
+}
+
+.dropdown-content2 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 196%;
+}
+
+.dropdown-content2 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content2 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content2 {
+  	display: block;
+}
+
+.dropdown-content3 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 341%;
+}
+
+.dropdown-content3 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content3 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content3 {
+  	display: block;
+}
+
+.dropdown-content4 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 483%;
+}
+
+.dropdown-content4 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content4 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content4 {
+  	display: block;
+}
+
+.dropdown-content5 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 625%;
+}
+
+.dropdown-content5 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content5 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content5 {
+  	display: block;
+}
+
+.dropdown-content6 {
+  	display: none;
+  	position: absolute;
+  	background-color: transparent;
+  	min-width: 12%;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	left: -1930%;
+  	top: 767%;
+}
+
+.dropdown-content6 a {
+  	color: #89f702;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: INLINE-block;
+  	background-color: transparent;
+}
+
+.dropdown-content6 a:hover {
+	background-color: #89f702;
+	color: #f70505;
+}
+
+.dropdown:hover .dropdown-content6 {
+  	display: block;
+}
+
+.inline-block-element {
+  	display: inline-block;
+  	width: 1000px; 
+  	height: 1000px; 
+}
+
+.nav {
+  	background-color: transparent;
+  	list-style-type: none;
+  	text-align: center;
+  	margin: 0;
+  	padding: 0;
+}
+
+.nav li {
+  	display: inline-block;
+  	font-size: 20px;
+  	padding: 20px;
+}
+
+#bannerimg1 {
+	width: 400px;
+	height: 150px;
+	position: relative;
+	margin-top: -60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	transition: 3s ease;
+	-webkit-transition: 3s ease;
+  	-moz-transition: 3s ease;
+  	-ms-transition: 3s ease;
+	-o-transition: 3s ease;
+	opacity: 100%;
+}
+
+#bannerimg2 {
+	width: 400px;
+	height: 150px;
+	position: relative;
+	margin-top: -60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+	transition: 3s ease;
+	-webkit-transition: 3s ease;
+  	-moz-transition: 3s ease;
+  	-ms-transition: 3s ease;
+	-o-transition: 3s ease;
+	opacity: 0%;
+}
+
+#bannerswitch1 {
+	height: 100px;
+	width: 100px;
+	background-color: white;
+
+}
+#bannerswitch2 {
+	z-index: -1;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: absolute;
+	margin-left: -100px;
+
+}
+
+#img1 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img2 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img3 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img4 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img5 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img6 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img7 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img8 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img9 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img10 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img11 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img12 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img13 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img14 {
+	height: 165px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#img15 {
+	height: 165px;
+	margin-left: 30px;
+}
+
+#img16 {
+	height: 165px;
+	margin-left: 30px;
+}
+
+#img17 {
+	height: 165px;
+	margin-left: 30px;
+}
+
+#img18 {
+	height: 165px;
+	margin-left: 30px;
+}
+</STYLE>
+</BODY>
+</HTML>
